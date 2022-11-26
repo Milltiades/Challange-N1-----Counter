@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(183, 132, 0, 1);
+
+}
+
+button {
+    background-color: #4B4949;
+    border: none;
+    border-radius: 12px;
+}
+
+body {
+    width: 100%;
+    background-color: #4B4949;
+
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.container {
+    position: relative;
+    top: 237px;
+    width: 750px;
+    height: 550px;
+    background-color: #373636;
+
+
+
+
+    border-radius: 30px;
+    display: block;
+
+
+
+
+
+
+}
+
+.div1 {
+    position: relative;
+    top: 54px;
+}
+
+h1 {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 632px;
+    left: 60px;
+    top: 111px;
+}
+
+.btn1 {
+    position: relative;
+    width: 120px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s;
+
+
+}
+.btn1:hover{
+    transform: translateY(-2px);
+}
+.btn3:hover{
+    transform: translateY(-2px);
+}
+.btn4:hover{
+    transform: translateY(-2px);
+}
+
+.btn2 {
+    position: relative;
+    width: 348px;
+    height: 170px;
+    font-style: normal;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.p2{
+    border: none;
+    background-color: #4B4949;
+    width: 65px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    font-family: 'Inter', sans-serif;
+    color:rgba(183, 132, 0, 1) ;
+}
+
+
+.btn3 {
+    position: relative;
+    width: 120px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.div3 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 187px;
+
+}
+
+.btn4 {
+    position: relative;
+    width: 174px;
+    height: 68px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
